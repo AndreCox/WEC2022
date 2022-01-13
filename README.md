@@ -1,6 +1,11 @@
-# WEC 2020 🏅
+# WEC 2022 🏅
 
 > ✨ Project home quick start
+
+## Setup
+
+Install Tailwind CSS IntelliSense for VSCode
+Run `npm install`
 
 ## Available Scripts
 
