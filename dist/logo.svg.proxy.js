@@ -1,1 +1,1 @@
-export default "/dist/logo.svg";
+export default "https://andrecox.github.io/WEC2022/dist/logo.svg";
