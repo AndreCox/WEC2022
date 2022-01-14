@@ -1,3 +1,11 @@
+function RandomizeArray(input) {
+  for (let i = input.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [input[i], input[j]] = [input[j], input[i]];
+  }
+  return input;
+}
+
 function ProcessCrane(input, process) {
   let output = input;
   let cranePosition = 0;
@@ -42,4 +50,4 @@ function ProcessCrane(input, process) {
   return output;
 }
 
-export default ProcessCrane;
+export { RandomizeArray, ProcessCrane };

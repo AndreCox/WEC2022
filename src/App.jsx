@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProcessCrane from './CraneProcess';
+import { ProcessCrane, RandomizeArray } from './CraneProcess';
 import './App.css';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   let processArr = [3, 2, 2, 2, 2, 4, 1, 3, 1, 4, 0];
 
   console.log(ProcessCrane(inputArr, processArr));
+  console.log(RandomizeArray(inputArr));
 
   // Return the App component.
   return (
