@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
+import ProcessCrane from './CraneProcess';
 import './App.css';
 
 function App() {
+  let inputArr = [3, 1, 2, 1, 4, 0, 1];
+  let processArr = [3, 2, 2, 2, 2, 4, 1, 3, 1, 4, 0];
+
+  console.log(ProcessCrane(inputArr, processArr));
+
   // Return the App component.
   return (
     <div className="h-screen bg-zinc-800">
@@ -23,7 +29,7 @@ function App() {
             class="text-white border rounded-lg p-3 mt-4"
             onClick={() => setonClick(true)}
           >
-          Calculate
+            Calculate
           </button>
         </div>
       </div>
