@@ -12,14 +12,14 @@ function App() {
   }, [count, setCount]);
   // Return the App component.
   return (
-    <div className="App">
+    <div className="App text-xl snap-center">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
         <p>
-          Page has been open for <code>{count}</code> seconds.
+          Page has been open for <code>{count}</code> second.
         </p>
         <p>
           <a
