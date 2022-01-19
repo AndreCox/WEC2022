@@ -19,7 +19,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero-image': 'url(https://source.unsplash.com/random)',
+        'hero-image': 'url(./assets/images/bg.jpg)',
       },
     },
   },
