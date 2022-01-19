@@ -1,6 +1,6 @@
 # WEC 2022 🏅
 
-> ✨ Project home quick start-
+> ✨ Project home quick start
 
 ## Setup
 

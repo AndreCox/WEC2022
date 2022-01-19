@@ -18,6 +18,9 @@ module.exports = {
           },
         },
       },
+      backgroundImage: {
+        'hero-image': 'url(./assets/images/bg.jpg)',
+      },
     },
   },
   variants: {
