@@ -18,6 +18,9 @@ module.exports = {
           },
         },
       },
+      backgroundImage: {
+        'hero-image': 'url(https://source.unsplash.com/random)',
+      },
     },
   },
   variants: {
