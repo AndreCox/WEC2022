@@ -10,7 +10,7 @@ function App() {
           <p className="text-white">Input</p>
           <input type="text" className="text-white" />
         </div>
-        <div className="">
+        <div className="mt-4">
           <p className="text-white">Process Config</p>
           <input type="text" className="text-white" />
         </div>
