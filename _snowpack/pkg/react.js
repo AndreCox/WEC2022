@@ -1,7 +1,8 @@
-import { r as react } from './common/index-ae389540.js';
-export { r as default } from './common/index-ae389540.js';
+import { r as react } from './common/index-68cca0f9.js';
+export { r as default } from './common/index-68cca0f9.js';
 
 
 
+var PureComponent = react.PureComponent;
 var useState = react.useState;
-export { useState };
+export { PureComponent, useState };

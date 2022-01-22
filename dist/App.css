@@ -412,8 +412,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.mt-4 {
-  margin-top: 1rem;
+.m-6 {
+  margin: 1.5rem;
+}
+.m-4 {
+  margin: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mr-20 {
+  margin-right: 5rem;
 }
 .flex {
   display: flex;
@@ -421,8 +436,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-screen {
   height: 100vh;
 }
-.flex-col {
-  flex-direction: column;
+.h-12 {
+  height: 3rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-14 {
+  height: 3.5rem;
 }
 .items-center {
   align-items: center;
@@ -430,68 +451,123 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center {
   justify-content: center;
 }
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+.justify-between {
+  justify-content: space-between;
 }
-.justify-self-center {
-  justify-self: center;
+.justify-around {
+  justify-content: space-around;
 }
-.rounded-xl {
-  border-radius: 0.75rem;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
-.rounded-2xl {
-  border-radius: 1rem;
+.border {
+  border-width: 1px;
 }
-.border-2 {
-  border-width: 2px;
+.border-4 {
+  border-width: 4px;
 }
-.border-white {
+.border-slate-800 {
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(30 41 59 / var(--tw-border-opacity));
 }
-.bg-zinc-800 {
+.bg-zinc-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(113 113 122 / var(--tw-bg-opacity));
 }
-.bg-gradient-to-br {
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
-.from-orange-600 {
-  --tw-gradient-from: #ea580c;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(234 88 12 / 0));
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.to-pink-600 {
-  --tw-gradient-to: #db2777;
+.from-slate-500 {
+  --tw-gradient-from: #64748b;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(100 116 139 / 0));
+}
+.to-zinc-800 {
+  --tw-gradient-to: #27272a;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .p-2 {
   padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.text-center {
+  text-align: center;
 }
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.italic {
+  font-style: italic;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-black {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.delay-100 {
+  transition-delay: 100ms;
+}
 
 html {
   height: 100vh;
 }
 
-.hover\:text-2xl:hover {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.shadow-top {
+  box-shadow: 5px 0 5px -5px #333;
 }
 
-.active\:text-lg:active {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-yellow-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
