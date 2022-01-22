@@ -31,6 +31,8 @@ Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch 
 
 # User Manual
 
+https://docs.google.com/document/d/1UWHxkIAV89l1Hd5ugOBtFsjRQKqXxM0yeS9yu35dtN8/edit?usp=sharing
+
 # Design Document
 
 https://docs.google.com/document/d/1fQgB9mqHCV6XSuiJ8kqBBU8sbOnMROChpYp4ykSW-Kg/edit?usp=sharing
