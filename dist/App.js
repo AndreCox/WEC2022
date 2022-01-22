@@ -47,6 +47,8 @@ function App() {
     }
     setInputVal(HandleArray(data).join(", "));
     setInputArr(HandleArray(data));
+    setOutputVal(HandleArray(data).join(", "));
+    setOutputArr(HandleArray(data));
     if (outputArr.length === 0) {
       setInputVal(HandleArray(data).join(", "));
     }
@@ -132,33 +134,13 @@ function App() {
     onClick: () => Clear()
   }, "Clear"))), /* @__PURE__ */ React.createElement("div", {
     class: "flex justify-around items-center m-4 text-white"
-  }, /* @__PURE__ */ React.createElement("h1", {
-    class: " italic mr-20"
-  }, "Input Configuration"), /* @__PURE__ */ React.createElement("h1", {
-    class: "italic"
-  }, "Output Configuration")), /* @__PURE__ */ React.createElement("div", {
+  }), /* @__PURE__ */ React.createElement("div", {
     class: "flex justify-around items-center"
-  }, /* @__PURE__ */ React.createElement("div", {
-    class: "rounded-lg border-4 border-slate-800 bg-white"
-  }, /* @__PURE__ */ React.createElement(BarChart, {
-    width: 10,
-    height: 10
-  }, /* @__PURE__ */ React.createElement(Bar, {
-    dataKey: "y",
-    fill: "#8884d8"
-  }))), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("img", {
+  }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("img", {
     class: "h-14",
     src: "https://www.onlygfx.com/wp-content/uploads/2021/07/red-sticker-arrow-3.png",
     alt: ""
-  })), /* @__PURE__ */ React.createElement("div", {
-    class: "rounded-lg border-4 border-slate-800 bg-white"
-  }, /* @__PURE__ */ React.createElement(BarChart, {
-    width: 10,
-    height: 10
-  }, /* @__PURE__ */ React.createElement(Bar, {
-    dataKey: "y",
-    fill: "#8884d8"
-  }))))), /* @__PURE__ */ React.createElement("footer", {
+  })))), /* @__PURE__ */ React.createElement("footer", {
     class: "flex items-center justify-center bg-slate-800 shadow-top"
   }, /* @__PURE__ */ React.createElement("img", {
     class: "h-14 m-4",
