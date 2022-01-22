@@ -5,3 +5,7 @@
 html {
   height: 100vh;
 }
+
+.shadow-top {
+  box-shadow: 5px 0 5px -5px #333;
+}
