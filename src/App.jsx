@@ -57,6 +57,8 @@ function App() {
     }
     setInputVal(HandleArray(data).join(', '));
     setInputArr(HandleArray(data));
+    setOutputVal(HandleArray(data).join(', '));
+    setOutputArr(HandleArray(data));
     if (outputArr.length === 0) {
       setInputVal(HandleArray(data).join(', '));
     }
@@ -171,27 +173,14 @@ function App() {
           </div>
         </div>
 
-        <div class="flex justify-around items-center m-4 text-white">
-          <h1 class=" italic mr-20">Input Configuration</h1>
-          <h1 class="italic">Output Configuration</h1>
-        </div>
+        <div class="flex justify-around items-center m-4 text-white"></div>
         <div class="flex justify-around items-center">
-          <div class="rounded-lg border-4 border-slate-800 bg-white">
-            <BarChart width={10} height={10}>
-              <Bar dataKey="y" fill="#8884d8" />
-            </BarChart>
-          </div>
           <div>
             <img
               class="h-14"
               src="https://www.onlygfx.com/wp-content/uploads/2021/07/red-sticker-arrow-3.png"
               alt=""
             />
-          </div>
-          <div class="rounded-lg border-4 border-slate-800 bg-white">
-            <BarChart width={10} height={10}>
-              <Bar dataKey="y" fill="#8884d8" />
-            </BarChart>
           </div>
         </div>
       </div>
